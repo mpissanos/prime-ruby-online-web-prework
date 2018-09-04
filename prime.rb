@@ -1,3 +1,9 @@
 def prime?(n)
-  if n == 1 || 2
+  divisor = 2
+  while n > divisor
+  if (n % divisor == 0)
+    divisor ++
+    return false
+  else
+    return true
 end
