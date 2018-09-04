@@ -7,6 +7,6 @@ def prime?(n)
     divisor ++
   end
     return true
-  end
+
 
 
